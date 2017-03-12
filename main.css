@@ -53,7 +53,9 @@ nav li a:hover {
 nav li a:active {}
 
 #slideshow {
+    margin: auto;
     text-align: center;
+    width: 60%;
 }
 
 .pad {
