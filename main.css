@@ -130,14 +130,14 @@ aside {
 }
 
 .contactInfo {
-    margin: 2px;
-    padding: 5px;
+    margin: 5px;
+    padding: 8px;
     border: 2px solid #fff;
     margin-bottom: 10px;
     width: 150px;
     height: auto;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 17%;
 }
 
 #contactInfo {
@@ -153,11 +153,12 @@ aside {
 }
 
 #formForUser {
-    margin-left: 50%;
+    margin-left: 55%;
     text-align: center;
     float: center;
 }
 
-#contactInfoMSG {}
-
-#formMSG {}
+#findUs {
+    padding: 5px;
+    margin-left: 8%;
+}
