@@ -130,6 +130,7 @@ aside {
 }
 
 .contactInfo {
+    background: #000;
     margin: 5px;
     padding: 8px;
     border: 2px solid #fff;
