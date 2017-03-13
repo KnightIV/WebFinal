@@ -1,7 +1,13 @@
 html {
-    background-color: #000;
+    background: linear-gradient();
     font-family: 'Inconsolata', monospace;
     color: #fff;
+}
+
+canvas {
+    margin-left: 15vw;
+    width: 600px;
+    height: 200px;
 }
 
 h1 {
@@ -14,6 +20,10 @@ body {
     /*background-color: #403F3D;*/
     width: 80%;
     padding-top: 10px;
+}
+
+p {
+    padding: 10px;
 }
 
 header {
@@ -43,8 +53,6 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:link {}
-
 nav li a:hover {
     background-color: #fff;
     color: rgb(25, 6, 255);
@@ -52,8 +60,36 @@ nav li a:hover {
 
 nav li a:active {}
 
-#slideshow {
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    border-right: 1px solid #fff;
+}
+
+td,
+th {
+    padding: 10px;
     text-align: center;
+}
+
+tr:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#slideshow {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+#slides {
+    margin-left: 17.3vw;
+    text-align: center;
+    border: 2px solid #fff;
 }
 
 .pad {
