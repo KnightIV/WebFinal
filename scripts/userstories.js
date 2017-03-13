@@ -7,8 +7,6 @@ $(document).ready(function () {
     $("#next_image").click(function () {
         update(1);
     });
-
-
 });
 // Write all the names of images in slideshow
 var images = ["images/UserStories/Fantasy1.jpg", "images/UserStories/Fantasy2.jpg", "images/UserStories/Fantasy3.jpg", "images/UserStories/PostApocalyptic1.jpg", "images/UserStories/PostApocalyptic2.jpg", "images/UserStories/Vacation.jpg"];
