@@ -59,3 +59,60 @@ nav li a:active {}
 .pad {
     padding: 10px;
 }
+
+#prev_image {
+    padding-top: 7vh;
+    float: left;
+    width: 70px;
+}
+
+#slideshow_image {
+    width: 65%;
+}
+
+aside {
+    display: inline-block;
+}
+
+#next_image {
+    padding-top: 7vh;
+    float: right;
+    width: 70px;
+}
+
+.content {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+
+.contactInfo {
+    margin: 2px;
+    padding: 5px;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+#contactInfo {
+    float: left;
+}
+
+.socialMedia {
+    margin: 10px 10px;
+}
+
+#fb {
+    margin-left: -.2px;
+}
+
+form {
+    margin: 20px;
+    float: center;
+}
