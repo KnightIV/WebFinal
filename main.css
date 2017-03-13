@@ -1,5 +1,6 @@
 html {
-    background: #000;
+    height: 100vh;
+    background-size: contain;
     font-family: 'Inconsolata', monospace;
     color: #fff;
 }
@@ -16,8 +17,8 @@ h1 {
 }
 
 body {
+    background: radial-gradient(#fff, #333, #000);
     margin: auto;
-    /*background-color: #403F3D;*/
     width: 80%;
     padding-top: 10px;
 }
@@ -63,6 +64,8 @@ nav li a:active {}
 table {
     border-collapse: collapse;
     margin: auto;
+    background: #333;
+    border-radius: 10px;
 }
 
 th {
