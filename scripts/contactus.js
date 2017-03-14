@@ -3,6 +3,12 @@ var addresss = "143 Main St, Salt Lake City, UT 84111";
 var theEmail = "LimitlessRea lity@gmail.c om";
 var clickOnOff = false;
 $(document).ready(function () {
+    $("#logo").on("mouseover", function () {
+        $(this).html('<img src="images/logo.png"/>');
+    });
+    $("#logo").on("mouseout", function () {
+        $(this).html("<i>Limitless Reality</i>");
+    });
     $("#phoneNum").on("click", function () {
         if (clickOnOff) {
             $("#phoneNum").animate({
