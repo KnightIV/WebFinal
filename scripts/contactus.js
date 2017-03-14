@@ -1,6 +1,6 @@
-var phoneNumber = "666-6666-666";
-var addresss = "xthe addressx";
-var theEmail = "xour emailx";
+var phoneNumber = "(888) 638-6668";
+var addresss = "143 Main St, Salt Lake City, UT 84111";
+var theEmail = "LimitlessRea lity@gmail.c om";
 var clickOnOff = false;
 $(document).ready(function () {
     $("#phoneNum").on("click", function () {
@@ -9,7 +9,7 @@ $(document).ready(function () {
                 "font-size": "1em"
             });
             $(this).width("150px");
-            $("#phoneNum").html("OUR PHONE NUMBER");
+            $("#phoneNum").html("Our Phone Number");
             clickOnOff = false;
         } else {
             $("#phoneNum").animate({
@@ -26,7 +26,7 @@ $(document).ready(function () {
                 "font-size": "1em"
             });
             $(this).width("150px");
-            $("#address").html("OUR ADDRESS");
+            $("#address").html("Our Address");
             clickOnOff = false;
         } else {
             $("#address").animate({
@@ -43,7 +43,7 @@ $(document).ready(function () {
                 "font-size": "1em"
             });
             $(this).width("150px");
-            $("#email").html("OUR EMAIL");
+            $("#email").html("Our Email");
             clickOnOff = false;
         } else {
             $("#email").animate({

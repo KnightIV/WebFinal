@@ -100,13 +100,14 @@ tr:hover {
 }
 
 #prev_image {
-    padding-top: 7vh;
+    padding-top: 2vh;
     float: left;
-    width: 70px;
+    width: 50px;
 }
 
 #slideshow_image {
-    width: 65%;
+    width: 650px;
+    height: 370px;
 }
 
 aside {
@@ -114,9 +115,9 @@ aside {
 }
 
 #next_image {
-    padding-top: 7vh;
+    padding-top: 2vh;
     float: right;
-    width: 70px;
+    width: 50px;
 }
 
 .content {
@@ -154,12 +155,41 @@ aside {
 }
 
 #formForUser {
-    margin-left: 55%;
+    margin-left: 57%;
     text-align: center;
     float: center;
+    width: 50%;
+    margin-top: -36%;
 }
 
 #findUs {
     padding: 5px;
-    margin-left: 8%;
+    width: 50%;
+    margin-left: 30%;
+}
+
+#headquarters {
+    float: center;
+    margin-top: -5.4px;
+    height: 330px;
+    width: 320px;
+    margin-left: 10%;
+}
+
+#hqP {
+    margin-left: 40%;
+}
+
+#starrating {
+    float: right;
+    margin: 10px 10px;
+    margin-right: 8.7%;
+    padding: 5px;
+    text-align: center;
+}
+
+#userstory {
+    float: right;
+    margin-right: 5%;
+    width: 20%;
 }
